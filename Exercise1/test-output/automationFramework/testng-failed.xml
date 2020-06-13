@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [automationFramework]">
+  <test thread-count="5" name="Your Logo Registration Flow(failed)">
+    <classes>
+      <class name="automationFramework.YourLogoRegistration">
+        <methods>
+          <include name="Signin"/>
+          <include name="SignOut"/>
+          <include name="PersonalInformation"/>
+          <include name="AddressInformation"/>
+        </methods>
+      </class> <!-- automationFramework.YourLogoRegistration -->
+    </classes>
+  </test> <!-- Your Logo Registration Flow(failed) -->
+</suite> <!-- Failed suite [automationFramework] -->

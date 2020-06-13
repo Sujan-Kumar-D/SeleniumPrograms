@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6512" started-at="2020-05-24T15:17:51Z" finished-at="2020-05-24T15:17:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6512" started-at="2020-05-24T15:17:51Z" finished-at="2020-05-24T15:17:58Z">
+      <class name="TestNGPrograms.SoftAssertionZeroWebApp">
+        <test-method status="PASS" signature="Browser()[pri:1, instance:TestNGPrograms.SoftAssertionZeroWebApp@57fffcd7]" name="Browser" duration-ms="6288" started-at="2020-05-24T15:17:51Z" finished-at="2020-05-24T15:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="FAIL" signature="assertEquals()[pri:2, instance:TestNGPrograms.SoftAssertionZeroWebApp@57fffcd7]" name="assertEquals" duration-ms="139" started-at="2020-05-24T15:17:57Z" finished-at="2020-05-24T15:17:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [ONLINE BANKINGG] but found [ONLINE BANKING]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [ONLINE BANKINGG] but found [ONLINE BANKING]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at TestNGPrograms.SoftAssertionZeroWebApp.assertEquals(SoftAssertionZeroWebApp.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertEquals -->
+        <test-method status="PASS" signature="assertNotEquals()[pri:3, instance:TestNGPrograms.SoftAssertionZeroWebApp@57fffcd7]" name="assertNotEquals" duration-ms="1" started-at="2020-05-24T15:17:58Z" finished-at="2020-05-24T15:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNotEquals -->
+        <test-method status="PASS" signature="assertTrue()[pri:4, instance:TestNGPrograms.SoftAssertionZeroWebApp@57fffcd7]" name="assertTrue" duration-ms="38" started-at="2020-05-24T15:17:58Z" finished-at="2020-05-24T15:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTrue -->
+        <test-method status="PASS" signature="assertFalse()[pri:5, instance:TestNGPrograms.SoftAssertionZeroWebApp@57fffcd7]" name="assertFalse" duration-ms="1" started-at="2020-05-24T15:17:58Z" finished-at="2020-05-24T15:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFalse -->
+        <test-method status="PASS" signature="assertNotNull()[pri:6, instance:TestNGPrograms.SoftAssertionZeroWebApp@57fffcd7]" name="assertNotNull" duration-ms="17" started-at="2020-05-24T15:17:58Z" finished-at="2020-05-24T15:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNotNull -->
+        <test-method status="PASS" signature="assertNull()[pri:7, instance:TestNGPrograms.SoftAssertionZeroWebApp@57fffcd7]" name="assertNull" duration-ms="1" started-at="2020-05-24T15:17:58Z" finished-at="2020-05-24T15:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNull -->
+      </class> <!-- TestNGPrograms.SoftAssertionZeroWebApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
