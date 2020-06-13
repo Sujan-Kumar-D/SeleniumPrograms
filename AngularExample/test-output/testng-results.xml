@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8231" started-at="2019-09-09T12:45:32Z" finished-at="2019-09-09T12:45:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8231" started-at="2019-09-09T12:45:32Z" finished-at="2019-09-09T12:45:40Z">
+      <class name="Framework.ToDoSite">
+        <test-method status="PASS" signature="url()[pri:0, instance:Framework.ToDoSite@7dc7cbad]" name="url" is-config="true" duration-ms="7339" started-at="2019-09-09T12:45:32Z" finished-at="2019-09-09T12:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="addTask()[pri:1, instance:Framework.ToDoSite@7dc7cbad]" name="addTask" duration-ms="397" started-at="2019-09-09T12:45:39Z" finished-at="2019-09-09T12:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTask -->
+        <test-method status="PASS" signature="taskCompletion()[pri:2, instance:Framework.ToDoSite@7dc7cbad]" name="taskCompletion" duration-ms="71" started-at="2019-09-09T12:45:40Z" finished-at="2019-09-09T12:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskCompletion -->
+        <test-method status="PASS" signature="pendingCount()[pri:3, instance:Framework.ToDoSite@7dc7cbad]" name="pendingCount" duration-ms="45" started-at="2019-09-09T12:45:40Z" finished-at="2019-09-09T12:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pendingCount -->
+        <test-method status="PASS" signature="deleteTask()[pri:4, instance:Framework.ToDoSite@7dc7cbad]" name="deleteTask" duration-ms="226" started-at="2019-09-09T12:45:40Z" finished-at="2019-09-09T12:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method status="PASS" signature="clearComplete()[pri:5, instance:Framework.ToDoSite@7dc7cbad]" name="clearComplete" duration-ms="114" started-at="2019-09-09T12:45:40Z" finished-at="2019-09-09T12:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearComplete -->
+      </class> <!-- Framework.ToDoSite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
