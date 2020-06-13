@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tshirts Navigation]">
+  <test thread-count="5" name="LogIn LogOut with TShirts Navigation(failed)">
+    <classes>
+      <class name="com.youlogo.scripts.TshirtsScript">
+        <methods>
+          <include name="productSelection"/>
+          <include name="PageLoad"/>
+        </methods>
+      </class> <!-- com.youlogo.scripts.TshirtsScript -->
+      <class name="com.youlogo.scripts.HomePageScript">
+        <methods>
+          <include name="PageLoad"/>
+          <include name="TShirtSelection"/>
+        </methods>
+      </class> <!-- com.youlogo.scripts.HomePageScript -->
+    </classes>
+  </test> <!-- LogIn LogOut with TShirts Navigation(failed) -->
+</suite> <!-- Failed suite [Tshirts Navigation] -->
