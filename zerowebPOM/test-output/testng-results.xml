@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11815" started-at="2019-12-16T12:32:45Z" finished-at="2019-12-16T12:32:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11815" started-at="2019-12-16T12:32:45Z" finished-at="2019-12-16T12:32:57Z">
+      <class name="com.zerowebapp.script.zerowebappScript">
+        <test-method status="PASS" signature="PageLoad()[pri:1, instance:com.zerowebapp.script.zerowebappScript@36d4b5c]" name="PageLoad" duration-ms="7155" started-at="2019-12-16T12:32:45Z" finished-at="2019-12-16T12:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageLoad -->
+        <test-method status="PASS" signature="UserLoginFlow()[pri:2, instance:com.zerowebapp.script.zerowebappScript@36d4b5c]" name="UserLoginFlow" duration-ms="4589" started-at="2019-12-16T12:32:52Z" finished-at="2019-12-16T12:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLoginFlow -->
+      </class> <!-- com.zerowebapp.script.zerowebappScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
