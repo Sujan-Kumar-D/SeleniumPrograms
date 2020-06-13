@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19348" started-at="2019-09-11T14:08:33Z" finished-at="2019-09-11T14:08:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19348" started-at="2019-09-11T14:08:33Z" finished-at="2019-09-11T14:08:52Z">
+      <class name="scripts.HomePageScript">
+        <test-method status="PASS" signature="Pageload()[pri:0, instance:scripts.HomePageScript@36d4b5c]" name="Pageload" duration-ms="11223" started-at="2019-09-11T14:08:33Z" finished-at="2019-09-11T14:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pageload -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:scripts.HomePageScript@36d4b5c]" name="signin" duration-ms="5656" started-at="2019-09-11T14:08:44Z" finished-at="2019-09-11T14:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="signout()[pri:0, instance:scripts.HomePageScript@36d4b5c]" name="signout" duration-ms="2445" started-at="2019-09-11T14:08:50Z" finished-at="2019-09-11T14:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+      </class> <!-- scripts.HomePageScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
