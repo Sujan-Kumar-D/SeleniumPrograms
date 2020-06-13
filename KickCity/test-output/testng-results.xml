@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="io.kickCity" duration-ms="69981" started-at="2019-07-25T21:51:23Z" finished-at="2019-07-25T21:52:33Z">
+    <groups>
+    </groups>
+    <test name="Event Creation and Ticket Booking Using BitCoin" duration-ms="69981" started-at="2019-07-25T21:51:23Z" finished-at="2019-07-25T21:52:33Z">
+      <class name="io.kickCity.KickCityCheck">
+        <test-method status="PASS" signature="PageLoad()[pri:1, instance:io.kickCity.KickCityCheck@2ef5e5e3]" name="PageLoad" duration-ms="8597" started-at="2019-07-25T21:51:23Z" finished-at="2019-07-25T21:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageLoad -->
+        <test-method status="PASS" signature="Signin()[pri:2, instance:io.kickCity.KickCityCheck@2ef5e5e3]" name="Signin" duration-ms="1327" started-at="2019-07-25T21:51:31Z" finished-at="2019-07-25T21:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method status="PASS" signature="CreateEvent()[pri:3, instance:io.kickCity.KickCityCheck@2ef5e5e3]" name="CreateEvent" duration-ms="1926" started-at="2019-07-25T21:51:33Z" finished-at="2019-07-25T21:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method status="PASS" signature="EventCreation()[pri:4, instance:io.kickCity.KickCityCheck@2ef5e5e3]" name="EventCreation" duration-ms="36842" started-at="2019-07-25T21:51:35Z" finished-at="2019-07-25T21:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EventCreation -->
+        <test-method status="PASS" signature="BookingPage()[pri:5, instance:io.kickCity.KickCityCheck@2ef5e5e3]" name="BookingPage" duration-ms="5802" started-at="2019-07-25T21:52:12Z" finished-at="2019-07-25T21:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingPage -->
+        <test-method status="PASS" signature="Payment()[pri:6, instance:io.kickCity.KickCityCheck@2ef5e5e3]" name="Payment" duration-ms="15430" started-at="2019-07-25T21:52:17Z" finished-at="2019-07-25T21:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+      </class> <!-- io.kickCity.KickCityCheck -->
+    </test> <!-- Event Creation and Ticket Booking Using BitCoin -->
+  </suite> <!-- io.kickCity -->
+</testng-results>

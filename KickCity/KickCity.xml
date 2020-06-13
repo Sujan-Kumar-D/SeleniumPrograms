@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="io.kickCity">
+  <test name="Event Creation and Ticket Booking Using BitCoin">
+    <classes>
+      <class name="io.kickCity.KickCityCheck"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
