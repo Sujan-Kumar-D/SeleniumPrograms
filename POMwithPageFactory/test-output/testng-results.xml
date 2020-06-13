@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23536" started-at="2019-08-22T10:37:24Z" finished-at="2019-08-22T10:37:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23536" started-at="2019-08-22T10:37:24Z" finished-at="2019-08-22T10:37:47Z">
+      <class name="scripts.HomePageScript">
+        <test-method status="PASS" signature="init()[pri:0, instance:scripts.HomePageScript@36d4b5c]" name="init" duration-ms="23490" started-at="2019-08-22T10:37:24Z" finished-at="2019-08-22T10:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- scripts.HomePageScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
