@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tshirts Navigation">
+  <test name="LogIn LogOut with TShirts Navigation">
+    <classes>
+    <class name="com.youlogo.scripts.HomePageScript"/>
+      <class name="com.youlogo.scripts.TshirtsScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
