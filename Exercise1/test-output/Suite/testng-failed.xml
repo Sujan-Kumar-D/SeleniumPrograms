@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGPrograms]">
-  <test thread-count="5" name="YourlogoRegloginlogout(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="TestNGPrograms.YourLogoForTestNG">
         <methods>
@@ -12,6 +12,12 @@
           <include name="spersonalInfo"/>
         </methods>
       </class> <!-- TestNGPrograms.YourLogoForTestNG -->
+      <class name="TestNGPrograms.ZeroSecurity">
+        <methods>
+          <include name="quit"/>
+          <include name="pageload"/>
+        </methods>
+      </class> <!-- TestNGPrograms.ZeroSecurity -->
     </classes>
-  </test> <!-- YourlogoRegloginlogout(failed) -->
-</suite> <!-- Failed suite [TestNGPrograms] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

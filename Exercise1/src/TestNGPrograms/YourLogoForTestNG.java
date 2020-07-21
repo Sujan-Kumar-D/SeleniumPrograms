@@ -14,7 +14,7 @@ public class YourLogoForTestNG {
 	@Test
 	public void pageLoad() {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/Chrome Driver 78/chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/Chrome Driver 84/chromedriver_win32/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
@@ -22,9 +22,9 @@ public class YourLogoForTestNG {
 		
 		//Registration
 	@Test
-	public void initialRegistration() throws InterruptedException {
+	public void registration() throws InterruptedException {
 		driver.findElement(By.xpath("//a[@class='login']")).click();
-		driver.findElement(By.id("email_create")).sendKeys("Dec10th2019@yopmail.com");
+		driver.findElement(By.id("email_create")).sendKeys("Dec10th2019july21@yopmail.com");
 		Thread.sleep(2000);
 		driver.findElement(By.id("SubmitCreate")).click();
 		Thread.sleep(5000);
@@ -34,7 +34,7 @@ public class YourLogoForTestNG {
 		
 		//Personal Information
 	@Test
-	public void personalInfo() throws InterruptedException {
+	public void spersonalInfo() throws InterruptedException {
 		WebElement radio1 = driver.findElement(By.id("id_gender2"));
 		Thread.sleep(5000);
 		radio1.click();
@@ -62,7 +62,7 @@ public class YourLogoForTestNG {
 		
 		//Address Information
 	@Test
-	public void addressInfo() {
+	public void taddressInfo() {
 		driver.findElement(By.id("firstname")).sendKeys("Sujan");
 		driver.findElement(By.id("lastname")).sendKeys("Kumar");
 		driver.findElement(By.id("company")).sendKeys("QSpiders");
@@ -82,14 +82,14 @@ public class YourLogoForTestNG {
 		
 		//Sign out
 	@Test
-	public void signOut() {
+	public void usignOut() {
 		driver.findElement(By.linkText("Sign out")).click();
 	}
 		
 		//Sign in
 	@Test
-	public void signIn() {
-		driver.findElement(By.id("email")).sendKeys("Dec10th2019@yopmail.com");
+	public void vsignIn() {
+		driver.findElement(By.id("email")).sendKeys("Dec10th2019july21@yopmail.com");
 		driver.findElement(By.id("passwd")).sendKeys("Passw0rd$123");
 		driver.findElement(By.id("SubmitLogin")).click();
 

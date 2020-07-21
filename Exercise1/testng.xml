@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="TestNGPrograms" verbose="1">
+  <test name="Zerowebapploginflow">
     <classes>
-      <class name="TestNGPrograms.YourLogoRegistrationParallel"/>
-      <class name="TestNGPrograms.ClassEvaluationPriority"/>
-      <class name="TestNGPrograms.GroupingConcept"/>
-      <class name="TestNGPrograms.YourLogoRegistration"/>
-      <class name="TestNGPrograms.ClassEvaluation"/>
-      <class name="TestNGPrograms.AssertiongetAttribute"/>
       <class name="TestNGPrograms.ZeroSecurity"/>
-      <class name="TestNGPrograms.AssertiongetText"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="YourlogoRegloginlogout">
+    <classes>
+      <class name="TestNGPrograms.YourLogoForTestNG"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

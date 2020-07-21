@@ -14,9 +14,9 @@ public class ZeroSecurity {
 	WebDriver driver;
 
 	@Test
-	public void LoginLogout() {
+	public void pageload() {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/Chrome Driver 76/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/Chrome Driver 84/chromedriver_win32/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://zero.webappsecurity.com/index.html");
 		driver.findElement(By.id("signin_button")).click();
@@ -30,14 +30,8 @@ public class ZeroSecurity {
 		driver.findElement(By.id("logout_link")).click();
 	}
 
-	@BeforeTest
-	public void beforeMethod() {
-		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/chromedriver.exe");
-		driver = new ChromeDriver();
-	}
-
-	@AfterTest()
-	public void afterMethod() {
+	@Test
+	public void quit() {
 		driver.close();
 	}
 
