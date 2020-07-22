@@ -17,4 +17,9 @@ public class GroupingConcept {
   public void f3() {
 	  System.out.println("Printing f3");
   }
+  
+  @Test (groups="X")
+  public void f4() {
+	  System.out.println("Printing f4");
+  }
 }
