@@ -2,6 +2,7 @@ package automationFramework;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
@@ -12,7 +13,7 @@ public class HandlingTabsNaukriExp {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/Chrome Driver 76/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C://Sujan//Essentials//Browser Drivers//Chrome Driver 84//chromedriver_win32//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//Open Webpage

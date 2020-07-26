@@ -15,11 +15,11 @@ import org.testng.annotations.Test;
 
 
 public class TakingScreenshotMultiple {
-	public static WebDriver driver;
+	public WebDriver driver;
 
 	@Test
 	public void screenshot() throws Exception{
-		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/Chrome Driver 76/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C://Sujan//Essentials//Browser Drivers//Chrome Driver 84//chromedriver_win32//chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
@@ -28,7 +28,7 @@ public class TakingScreenshotMultiple {
 		getscreenshot();
 	}
 
-	private static void getscreenshot() throws IOException {
+	private void getscreenshot() throws IOException {
 		// TODO Auto-generated method stub
 
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

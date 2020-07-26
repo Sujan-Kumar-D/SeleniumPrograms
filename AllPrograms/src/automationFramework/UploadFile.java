@@ -11,7 +11,7 @@ public class UploadFile {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "C:/Sujan/Essentials/Browser Drivers/Chrome Driver 76/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C://Sujan//Essentials//Browser Drivers//Chrome Driver 84//chromedriver_win32//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//Open Webpage
