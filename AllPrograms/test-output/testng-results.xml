@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8509" started-at="2020-07-26T04:59:31Z" finished-at="2020-07-26T04:59:40Z">
+  <suite name="Default suite" duration-ms="96558" started-at="2020-07-27T15:16:42Z" finished-at="2020-07-27T15:18:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8509" started-at="2020-07-26T04:59:31Z" finished-at="2020-07-26T04:59:40Z">
-      <class name="automationFramework.AutoITMultipleUpload">
-        <test-method status="PASS" signature="pageload()[pri:0, instance:automationFramework.AutoITMultipleUpload@57fffcd7]" name="pageload" duration-ms="5298" started-at="2020-07-26T04:59:31Z" finished-at="2020-07-26T04:59:37Z">
+    <test name="Default test" duration-ms="96558" started-at="2020-07-27T15:16:42Z" finished-at="2020-07-27T15:18:19Z">
+      <class name="TestNGPrograms.OrangeHRM">
+        <test-method status="PASS" signature="a_pageload()[pri:0, instance:TestNGPrograms.OrangeHRM@57fffcd7]" name="a_pageload" duration-ms="10431" started-at="2020-07-27T15:16:42Z" finished-at="2020-07-27T15:16:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageload -->
-        <test-method status="PASS" signature="runtime()[pri:0, instance:automationFramework.AutoITMultipleUpload@57fffcd7]" name="runtime" duration-ms="3183" started-at="2020-07-26T04:59:37Z" finished-at="2020-07-26T04:59:40Z">
+        </test-method> <!-- a_pageload -->
+        <test-method status="PASS" signature="b_login()[pri:0, instance:TestNGPrograms.OrangeHRM@57fffcd7]" name="b_login" duration-ms="12401" started-at="2020-07-27T15:16:53Z" finished-at="2020-07-27T15:17:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runtime -->
-      </class> <!-- automationFramework.AutoITMultipleUpload -->
+        </test-method> <!-- b_login -->
+        <test-method status="PASS" signature="c_addEmployeeStep()[pri:0, instance:TestNGPrograms.OrangeHRM@57fffcd7]" name="c_addEmployeeStep" duration-ms="34950" started-at="2020-07-27T15:17:05Z" finished-at="2020-07-27T15:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_addEmployeeStep -->
+        <test-method status="PASS" signature="d_personaldetails()[pri:0, instance:TestNGPrograms.OrangeHRM@57fffcd7]" name="d_personaldetails" duration-ms="38700" started-at="2020-07-27T15:17:40Z" finished-at="2020-07-27T15:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_personaldetails -->
+      </class> <!-- TestNGPrograms.OrangeHRM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
