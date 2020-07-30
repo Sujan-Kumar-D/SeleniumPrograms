@@ -10,7 +10,7 @@ public class HTMLUnit {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver = new HtmlUnitDriver();
-		driver.get("http://www.newtours.demoaut.com/");
+		driver.get("https://stackoverflow.com/questions/5308079/why-maven-settings-xml-file-is-not-there");
 		driver.manage().window().maximize();
 		String Title = driver.getTitle();
 		System.out.println(Title);
