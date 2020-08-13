@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32152" started-at="2020-08-01T04:59:03Z" finished-at="2020-08-01T04:59:35Z">
+  <suite name="Default suite" duration-ms="12331" started-at="2020-08-06T09:43:24Z" finished-at="2020-08-06T09:43:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32152" started-at="2020-08-01T04:59:03Z" finished-at="2020-08-01T04:59:35Z">
-      <class name="TestNGPrograms.BootStrapSpiceJet">
-        <test-method status="PASS" signature="a_bootstrapsite()[pri:0, instance:TestNGPrograms.BootStrapSpiceJet@57fffcd7]" name="a_bootstrapsite" duration-ms="20132" started-at="2020-08-01T04:59:03Z" finished-at="2020-08-01T04:59:23Z">
+    <test name="Default test" duration-ms="12331" started-at="2020-08-06T09:43:24Z" finished-at="2020-08-06T09:43:36Z">
+      <class name="TestNGPrograms.AutoITUpload">
+        <test-method status="PASS" signature="pageload()[pri:0, instance:TestNGPrograms.AutoITUpload@57fffcd7]" name="pageload" duration-ms="6129" started-at="2020-08-06T09:43:24Z" finished-at="2020-08-06T09:43:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a_bootstrapsite -->
-        <test-method status="PASS" signature="b_spicejetfrom()[pri:0, instance:TestNGPrograms.BootStrapSpiceJet@57fffcd7]" name="b_spicejetfrom" duration-ms="5542" started-at="2020-08-01T04:59:23Z" finished-at="2020-08-01T04:59:29Z">
+        </test-method> <!-- pageload -->
+        <test-method status="PASS" signature="runtime()[pri:0, instance:TestNGPrograms.AutoITUpload@57fffcd7]" name="runtime" duration-ms="6110" started-at="2020-08-06T09:43:30Z" finished-at="2020-08-06T09:43:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b_spicejetfrom -->
-        <test-method status="PASS" signature="c_spicejetto()[pri:0, instance:TestNGPrograms.BootStrapSpiceJet@57fffcd7]" name="c_spicejetto" duration-ms="5569" started-at="2020-08-01T04:59:29Z" finished-at="2020-08-01T04:59:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c_spicejetto -->
-        <test-method status="PASS" signature="d_spicejetdeparturedate()[pri:0, instance:TestNGPrograms.BootStrapSpiceJet@57fffcd7]" name="d_spicejetdeparturedate" duration-ms="879" started-at="2020-08-01T04:59:34Z" finished-at="2020-08-01T04:59:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- d_spicejetdeparturedate -->
-      </class> <!-- TestNGPrograms.BootStrapSpiceJet -->
+        </test-method> <!-- runtime -->
+      </class> <!-- TestNGPrograms.AutoITUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

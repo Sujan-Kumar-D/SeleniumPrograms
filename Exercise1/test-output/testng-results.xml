@@ -1,49 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNGPrograms" duration-ms="93072" started-at="2020-07-21T08:09:04Z" finished-at="2020-07-21T08:10:37Z">
+  <suite name="Default suite" duration-ms="68" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
     <groups>
     </groups>
-    <test name="Zerowebapploginflow" duration-ms="19916" started-at="2020-07-21T08:09:04Z" finished-at="2020-07-21T08:09:24Z">
-      <class name="TestNGPrograms.ZeroSecurity">
-        <test-method status="PASS" signature="pageload()[pri:0, instance:TestNGPrograms.ZeroSecurity@57fffcd7]" name="pageload" duration-ms="17148" started-at="2020-07-21T08:09:04Z" finished-at="2020-07-21T08:09:21Z">
+    <test name="Default test" duration-ms="68" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
+      <class name="TestNGPrograms.Annotations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="beforeTest" is-config="true" duration-ms="18" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageload -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:TestNGPrograms.ZeroSecurity@57fffcd7]" name="quit" duration-ms="2719" started-at="2020-07-21T08:09:21Z" finished-at="2020-07-21T08:09:24Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- TestNGPrograms.ZeroSecurity -->
-    </test> <!-- Zerowebapploginflow -->
-    <test name="YourlogoRegloginlogout" duration-ms="73076" started-at="2020-07-21T08:09:24Z" finished-at="2020-07-21T08:10:37Z">
-      <class name="TestNGPrograms.YourLogoForTestNG">
-        <test-method status="PASS" signature="pageLoad()[pri:0, instance:TestNGPrograms.YourLogoForTestNG@3159c4b8]" name="pageLoad" duration-ms="13114" started-at="2020-07-21T08:09:24Z" finished-at="2020-07-21T08:09:37Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageLoad -->
-        <test-method status="PASS" signature="registration()[pri:0, instance:TestNGPrograms.YourLogoForTestNG@3159c4b8]" name="registration" duration-ms="11398" started-at="2020-07-21T08:09:37Z" finished-at="2020-07-21T08:09:48Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="f1" duration-ms="14" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method status="PASS" signature="spersonalInfo()[pri:0, instance:TestNGPrograms.YourLogoForTestNG@3159c4b8]" name="spersonalInfo" duration-ms="33003" started-at="2020-07-21T08:09:48Z" finished-at="2020-07-21T08:10:21Z">
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- spersonalInfo -->
-        <test-method status="PASS" signature="taddressInfo()[pri:0, instance:TestNGPrograms.YourLogoForTestNG@3159c4b8]" name="taddressInfo" duration-ms="7438" started-at="2020-07-21T08:10:21Z" finished-at="2020-07-21T08:10:29Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- taddressInfo -->
-        <test-method status="PASS" signature="usignOut()[pri:0, instance:TestNGPrograms.YourLogoForTestNG@3159c4b8]" name="usignOut" duration-ms="4689" started-at="2020-07-21T08:10:29Z" finished-at="2020-07-21T08:10:34Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="f2" duration-ms="1" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usignOut -->
-        <test-method status="PASS" signature="vsignIn()[pri:0, instance:TestNGPrograms.YourLogoForTestNG@3159c4b8]" name="vsignIn" duration-ms="3417" started-at="2020-07-21T08:10:34Z" finished-at="2020-07-21T08:10:37Z">
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vsignIn -->
-      </class> <!-- TestNGPrograms.YourLogoForTestNG -->
-    </test> <!-- YourlogoRegloginlogout -->
-  </suite> <!-- TestNGPrograms -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="afterClass" is-config="true" duration-ms="2" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNGPrograms.Annotations@4cf777e8]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-08-06T09:39:31Z" finished-at="2020-08-06T09:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPrograms.Annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
