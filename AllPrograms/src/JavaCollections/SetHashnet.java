@@ -9,7 +9,7 @@ public class SetHashnet {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Set <String> values = new HashSet<String> ();
+		HashSet <String> values = new HashSet<String> ();
 		
 		values.add("Sujan");
 		values.add("Kumar");
