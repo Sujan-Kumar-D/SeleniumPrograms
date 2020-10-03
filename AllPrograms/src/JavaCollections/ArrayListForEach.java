@@ -1,8 +1,5 @@
 package JavaCollections;
 
-import java.lang.Object;
-import java.util.AbstractCollection;
-import java.util.AbstractList;
 import java.util.ArrayList;
 
 

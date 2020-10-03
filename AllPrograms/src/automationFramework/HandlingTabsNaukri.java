@@ -1,7 +1,6 @@
 package automationFramework;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
